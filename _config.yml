@@ -1,0 +1,70 @@
+title: Peninsula
+url: https://jizhizhu.github.io/
+baseurl: ''
+# cdnurl: 'https://blog-biezhi-me-1251171175.cos.ap-shanghai.myqcloud.com'
+description: >
+  关于编程、生活、游戏和我的一些思考。
+
+permalink: /:year/:month/:title.html
+
+image: /public/images/mountains.jpg
+#文章标题颜色
+color: '#dc322f'
+
+# to edit
+# google_analytics: 
+# baidu_analytics: 2209f3e596f3e0c61a293f49a2f65ba3
+# disqus: blog-biezhi-me
+
+markdown: kramdown
+highlighter: rouge
+paginate: 12
+paginate_path: "/page/:num"
+
+# 作者信息
+author:
+  name: jizhizhu
+  email: laixin123@gmail.com
+  # 没有头像图片暂时注释掉
+  # photo: /public/images/avatar.jpeg
+
+# 社交信息
+socials:
+  - title: Github
+    icon: github-logo
+    url: https://github.com/jizhizhu
+#   - title: Twitter
+#     icon: twitter
+#     url: https://twitter.com/biezhii
+#   - title: Youtube
+#     icon: youtube
+#     url: https://www.youtube.com/channel/UCmlhPmTdqYhRWwWZWSIBwGw
+#   - title: 知乎主页
+#     icon: zhihu
+#     url: https://www.zhihu.com/people/biezhi
+
+# 友链
+links:
+  - title: 魔王不造反
+    url: https://blog.biezhi.me/
+  - title: 饮冰先生
+    url: https://mayanbin.com/
+
+# html 压缩
+compress_html:
+  clippings: all
+  comments: ["<!--", "-->"]
+  endings: all
+  startings: [html, head, body]
+
+# sass 解析
+sass:
+  sass_dir: public/css
+  style: compressed
+
+# 插件
+plugins:
+  - jekyll-paginate
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
