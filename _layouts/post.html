@@ -5,7 +5,8 @@ layout: default
 <article class="post">
   <h1 class="post-title">{{page.title}}</h1>
   <div class="post-date">
-    <span><span class="icon icon-calendar"></span> 发表于 <time datetime="{{page.date | date_to_xmlschema}}">{{page.date |
+    
+    <span><!-- <span class="icon icon-calendar"></span> -->发表于 <time datetime="{{page.date | date_to_xmlschema}}">{{page.date |
         date: '%Y年%m月%d日'}}</time> &middot;</span>
     {% if page.categories.size != 0 %}
     归类于 {% for cat in page.categories %}
@@ -21,7 +22,7 @@ layout: default
 
 {% if page.tags.size != 0 %}
 <span class="tags">
-  <span class="icon icon-price-tags" style="color: #8c8b8b;font-size: .9rem;">&nbsp;</span>
+  <!-- <span class="icon icon-price-tags" style="color: #8c8b8b;font-size: .9rem;">&nbsp;</span> -->标签：
   {% for tag in page.tags %}
   <a href="{{ site.baseurl }}/tags.html#{{ tag }}" title="{{ tag }}">#{{ tag }}</a>&nbsp;
   {% endfor %}
