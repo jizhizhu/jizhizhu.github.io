@@ -14,7 +14,7 @@ layout: default
     &middot;
     {% endfor %}
     {% endif %}
-    阅读量 <span id="busuanzi_value_page_pv">加载中...</span> &middot;
+    阅读量 <span id="busuanzi_value_page_pv">加载中...</span>
     <!-- <a href="{{ site.url }}{{ page.url }}#disqus_thread">评论</a> -->
   </div>
   <hr class="post-divide">
@@ -48,5 +48,5 @@ layout: default
 
 <!-- Add Disqus Comments -->
 {% if page.comments %}
-<!-- {% include disqus.html %} -->
+{% include disqus.html %}
 {% endif %}
