@@ -2,7 +2,7 @@
 ## blog
 
 
-https://lckclub.com/ source code.
+https://lckclub.com source code.
 
 ## License
 
