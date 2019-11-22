@@ -2,7 +2,7 @@
 ## blog
 
 
-https://jizhizhu.github.io/ source code.
+https://lckclub.com/ source code.
 
 ## License
 
